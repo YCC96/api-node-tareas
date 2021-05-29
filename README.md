@@ -19,12 +19,14 @@ Con NPM:
 cd api-node-tareas
 npm install
 npm start
+url: http://localhost:3010/
 ```
 
 con docker ambiente local:
 ```
 cd api-node-tareas
 docker-compose up --build
+url: http://localhost:3050/
 ```
 
 con docker ambiente prod:
