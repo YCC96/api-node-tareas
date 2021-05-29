@@ -1,0 +1,11 @@
+version: "3"
+services: 
+    api:
+        container_name: api-node
+        restart: always
+        build: .
+        command: npm run dev
+        ports:
+            - "3050:3010"
+        volumes: 
+            - .:/app
