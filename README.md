@@ -1,6 +1,5 @@
 ## API para la gestión de tareas
 ========================
-
 Proyecto publicado en Heroku
 ========================
 - https://api-node-tareas.herokuapp.com
