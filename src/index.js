@@ -15,6 +15,7 @@ app.use((req, res, next) => {
 });
 
 require('./routes/tareas.routes')(app);
+require('./routes/proyectos.routes')(app);
 
 app.listen(app.get('port'), () => {
     console.log('Servidor corriendo en el puerto: ', app.get('port'));
